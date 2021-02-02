@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="default.css">
+    <title>cmy_colorpicker</title>
+</head>
+<body>
+
+    <div class="content"> 
+        <canvas id="canvas" width="500" height="500"></canvas>
+        <input type="range" id="cyan_value" min="0" max="100" step="1" value="20">
+        <p>Current Cyan value is <span id="current_cyan_value"></span>.</p>
+        <input type="range" id="mage_value" min="0" max="100" step="1" value="40">
+        <p>Current Mage value is <span id="current_mage_value"></span>.</p>
+        <input type="range" id="yell_value" min="0" max="100" step="1" value="60">
+        <p>Current Yell value is <span id="current_yell_value"></span>.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+</html>
